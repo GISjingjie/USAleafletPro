@@ -1,0 +1,76 @@
+﻿	
+	色号查询：https://encycolorpedia.cn/
+	
+	色号转换：https://www.sioe.cn/yingyong/yanse-rgb-16/
+	
+	渐变色：https://webgradients.com/
+
+	传图识别颜色网站	https://www.sojson.com/web/img.html
+	
+	配色网站 https://mycolor.space/
+	
+	颜色网站**：https://www.colorhexa.com/6ca437
+
+	矢量转GeoJson的地址：https://mapshaper.org/ 
+
+	可视化竞赛网站：http://chinavis.org/2019/challenge.html	其中2019为2019届
+
+	图片压缩：https://squoosh.app/
+
+	图片在线编辑，锐化，亮度，对比度 https://pixlr.com/cn/e/#editor
+
+	有意思的网站：https://theuselessweb.com/
+
+	日本地图数据：http://cyberjapandata.gsi.go.jp/
+	leaflet 中引用：L.tileLayer('http://cyberjapandata.gsi.go.jp/xyz/ort/{z}/{x}/{y}.jpg', {
+			attribution: '<a href="http://maps.gsi.go.jp/development/">GSI Ortho</a>'
+		}).addTo(map);
+
+	leaflet 编辑插件 https://github.com/geoman-io/leaflet-geoman
+
+	leaflet 飞向某城市插件	https://github.com/Mappy/Leaflet-active-area
+
+	geoserver		https://www.osgeo.cn/tutorial/k8b24
+
+	cesium 案例	https://sandcastle.cesium.com/
+
+	降水数据		http://www.data.ac.cn/case/application.html
+
+	风向数据：	https://www.windy.com/
+
+	gltfView		https://gltf-viewer.donmccurdy.com/
+
+	三维数据转换	https://products.aspose.app/3d/conversion/gltf-to-dae
+
+	skp转gltf		https://cad-convert.com/en/convert/skp-to-gltf
+	
+	skp插件转gltf	https://github.com/YulioTech/SketchUp-glTF-Exporter-Ruby
+
+	UI设计稿网站	https://screenlane.com/
+
+	日本响应式网站	https://www.webdesignclip.com/
+
+	Jquery动画效果	http://www.htmleaf.com/
+	
+	动画案例		https://www.30secondsofcode.org/
+	
+	各种案例：	https://www.html5tricks.com/
+
+	ui案例网站		http://www.boxui.com/		https://collectui.com/
+	
+	网站案例 https://dribbble.com/
+
+	高质量视频图片	https://www.pexels.com/zh-cn/
+
+	创意图片		https://dribbble.com/shots
+
+	字体配色		http://zhongguose.com/#dianqing
+
+	天气地图		http://www.weather.com.cn/radar/
+
+	
+
+
+
+                  
+	
