@@ -237,7 +237,7 @@ export default{
   }
   .login-form-btn-div button:hover{
     background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
-
+    color: #000;
     transform: scale(1.25);
   }
   .myfooter{
