@@ -8,9 +8,11 @@ export function login(username, password, code, uuid) {
     code,
     uuid,
   };
+  
   return request({
     url:"http://106.15.226.239:8081/login",
     method:'POST',
     params:paramV
   });
+  
 }
