@@ -10,8 +10,11 @@ import axios from 'axios'
 /*antd*/
 import Antd from 'ant-design-vue';
 import 'ant-design-vue/dist/antd.css';
-
 Vue.use(Antd);
+
+/*databV*/
+import dataV from '@jiaminghi/data-view'
+Vue.use(dataV)
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */

@@ -55,7 +55,7 @@ export default{
   beforeCreate() {
 
     },
-    components:{
+  components:{
       myFooter
     },
   data(){
