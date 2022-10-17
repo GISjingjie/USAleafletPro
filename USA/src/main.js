@@ -4,6 +4,22 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
+
+/*加载Leaflet的layers*/
+/*
+import utils from './utils'
+Vue.prototype.$utils=utils
+*/
+
+/*leafLet*/
+
+import { LMap, LTileLayer, LMarker } from 'vue2-leaflet';
+import 'leaflet/dist/leaflet.css';
+
+Vue.component('l-map', LMap);
+Vue.component('l-tile-layer', LTileLayer);
+Vue.component('l-marker', LMarker);
+
 /*axios*/
 import axios from 'axios'
 
@@ -20,7 +36,9 @@ Vue.config.productionTip = false
 /* eslint-disable no-new */
 
 
-Vue.prototype.$axios=axios
+Vue.prototype.$axios=axios;
+
+
 
 new Vue({
   el: '#app',

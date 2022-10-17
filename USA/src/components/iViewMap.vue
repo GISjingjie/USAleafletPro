@@ -32,6 +32,12 @@
         sMapbox,
         sHeader
     },
+    mounted() {
+
+    },
+    methods:{
+
+    }
   }
 
 </script>
@@ -51,7 +57,7 @@
     height: 90%;
   }
   .leftContent,.rightContent{
-    width: 22%;
+    width: 20%;
     height: 95%;
 
     float: left;
@@ -61,7 +67,7 @@
 
   }
   .midContent{
-    width: 56%;
+    width: 60%;
     height: 95%;
     float: left;
   }
@@ -83,6 +89,7 @@
   .sMapbox{
     width: 100%;
     height: 100%;
+
   }
   .sHeader{
     width: 100%;

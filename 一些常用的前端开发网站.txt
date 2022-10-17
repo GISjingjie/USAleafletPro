@@ -30,6 +30,8 @@
 
 	leaflet 飞向某城市插件	https://github.com/Mappy/Leaflet-active-area
 
+	Vue2leaflet	https://vue2-leaflet.netlify.app/
+
 	geoserver		https://www.osgeo.cn/tutorial/k8b24
 
 	cesium 案例	https://sandcastle.cesium.com/
