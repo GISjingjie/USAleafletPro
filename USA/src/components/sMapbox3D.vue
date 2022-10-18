@@ -8,34 +8,46 @@
     <l-tile-layer
      :url="url"
     >
-      
+
     </l-tile-layer>
+    <l-geo-json :geojson="geojson"></l-geo-json>
     </l-map>
   </div>
 </template>
 
 <script>
 import { latLng } from "leaflet";
+import {LMap, LTileLayer, LGeoJson} from 'vue2-leaflet';
+import USAJson from '../../../USA/static/json/USAjson.js'
   export default{
-    created() {
-
+    components:{
+      LGeoJson
+    },
+    async created() {
+        //const response = await fetch('https://rawgit.com/gregoiredavid/france-geojson/master/regions/pays-de-la-loire/communes-pays-de-la-loire.geojson');
+        this.geojson=USAJson;
     },
     data() {
       return {
-        zoom: 13,
-        center: latLng(47.41322, -1.219482),
+        zoom: 4,
+        center: [37.8, -96],
         url: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
         attribution:'&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
         mapOptions: {
-                zoomSnap: 0.5
-        }
+          zoomSnap: 0.5
+        },
+        geojson:null
       }
     },
     mounted() {
-      this.initMap()
+      this.getStateName()
     },
     methods:{
-      initMap(){
+      getStateName(){
+        let geojs=this.geojson.features;
+        for(let i =0;i<geojs.length;i++){
+          console.log(geojs[i].properties.name);
+        }
       }
     }
   }

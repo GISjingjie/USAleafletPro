@@ -12,6 +12,8 @@
 	颜色网站**：https://www.colorhexa.com/6ca437
 
 	矢量转GeoJson的地址：https://mapshaper.org/ 
+	
+	geojson在线浏览：https://geojson.tools/
 
 	可视化竞赛网站：http://chinavis.org/2019/challenge.html	其中2019为2019届
 
