@@ -45,9 +45,14 @@ import USAJson from '../../../USA/static/json/USAjson.js'
     methods:{
       getStateName(){
         let geojs=this.geojson.features;
+        let nameList='';
         for(let i =0;i<geojs.length;i++){
-          console.log(geojs[i].properties.name);
+          nameList+=geojs[i].properties.name;
+          nameList+="  ";
+          //console.log(geojs[i].properties.name);
         }
+        console.log(nameList);
+        alert(nameList);
       }
     }
   }
