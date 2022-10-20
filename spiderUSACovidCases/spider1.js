@@ -86,7 +86,7 @@ function(res){
 			console.log(data51[i]);
 		}
 		*/
-		fs.writeFile('../USA/static/json/usaCases.js',JSON.stringify(data51),function(err){
+		fs.writeFile('../USA/static/json/usaCases.json',JSON.stringify(data51),function(err){
 			if(!err){
 				console.log('文件写入完毕！');
 			}
